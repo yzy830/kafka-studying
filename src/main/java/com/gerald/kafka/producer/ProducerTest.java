@@ -22,7 +22,7 @@ public class ProducerTest {
     static {
         Map<String, Object> properties = new HashMap<>();
         
-        properties.put("bootstrap.servers", "192.168.1.100:9092");
+        properties.put("bootstrap.servers", "192.168.31.252:9092");
         properties.put("acks", "1");
         properties.put("key.serializer", StringSerializer.class);
         properties.put("value.serializer", StringSerializer.class);
